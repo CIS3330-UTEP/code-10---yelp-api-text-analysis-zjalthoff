@@ -3,7 +3,7 @@ import requests #These 3 packages are for the more complex way to request
 import urllib.parse
 import json
 
-api_key = "H7Lry_s8GLQPtwdDsJk210QvspA2rH8L9G0iAPj5nxYIebIi3lnTfOlf4jf7j013ZJRkICHd8UeKhjacacMfwyA2NVYoU8YH8_zYAJ1g4ObaLDTw9z-61FyaJUFIZXYx"
+api_key = 
 
 yelp_api_instance = YelpAPI(api_key)
 #2 arguments needed - Search Term & Location Term
