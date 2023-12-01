@@ -9,7 +9,7 @@ stop_words = set(stopwords.words('english')) #set makes list immutable (recommen
 
 for review in reviews: 
     print("\n")
-    # print(review)
+    print(review)
     tokens = nltk.word_tokenize(review)     #TOKENIZATION
     # print(tokens)
     pos_tags = nltk.pos_tag(tokens)     #PARTS OF SPEECH - look at POS dictionary
